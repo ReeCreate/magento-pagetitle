@@ -2,7 +2,7 @@
 <config>
     <modules>
         <ReeCreate_PageTitle>
-            <version>1.0.0</version>
+            <version>1.0.4</version>
         </ReeCreate_PageTitle>
     </modules>
     <global>
@@ -14,14 +14,6 @@
     </global>
     <frontend>
         <events>
-            <catalog_controller_product_view>
-                <observers>
-                    <ReeCreate_PageTitle>
-                        <class>ReeCreate_PageTitle_Model_Observer</class>
-                        <method>catalog_controller_product_view</method>
-                    </ReeCreate_PageTitle>
-                </observers>
-            </catalog_controller_product_view>
             <controller_action_layout_generate_blocks_after>
                 <observers>
                     <ReeCreate_PageTitle>
