@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <ReeCreate_PageTitle>
+            <active>true</active>
+            <codePool>community</codePool>
+        </ReeCreate_PageTitle>
+    </modules>
+</config>
