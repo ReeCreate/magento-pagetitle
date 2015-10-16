@@ -22,6 +22,14 @@
                     </ReeCreate_PageTitle>
                 </observers>
             </catalog_controller_product_view>
+            <controller_action_layout_generate_blocks_after>
+                <observers>
+                    <ReeCreate_PageTitle>
+                        <class>ReeCreate_PageTitle_Model_Observer</class>
+                        <method>controller_action_layout_generate_blocks_after</method>
+                    </ReeCreate_PageTitle>
+                </observers>
+            </controller_action_layout_generate_blocks_after>
         </events>
     </frontend>
 </config>
