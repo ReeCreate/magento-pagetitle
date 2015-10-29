@@ -22,6 +22,9 @@ class ReeCreate_PageTitle_Model_Observer
             $title = Mage::registry('current_category')->getName();
         }
 
-        $head->setTitle($title);
+        if(!empty($title))
+        {
+            $head->setTitle($title);
+        }
     }
 }
